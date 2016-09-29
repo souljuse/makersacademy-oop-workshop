@@ -22,7 +22,7 @@ def student_name(student)
 end
 
 def year_of_birth(student)
-  year_of_birth = (student.year_of_birth).year
+  year_of_birth = student.year_of_birth
 end
 
 students.sort! do |a, b|
